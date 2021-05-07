@@ -1,0 +1,80 @@
+.app {
+  text-align: center;
+  align-items: center;
+}
+
+.avatar {
+  height: 125px;
+  width: 125px;
+  align-items: center;
+  margin-top: 32px;
+  margin-bottom: 36px;
+}
+
+.title {
+  color: white;
+  font-size: 40px;
+  font-family: sans-serif;
+  font-weight: 100;
+  margin: 0 0 12px;
+  text-align: center;
+}
+
+.sub-title {
+  margin-top: 0%;
+  font-family: sans-serif;
+  color: white;
+  font-size: 16px;
+  text-align: center;
+}
+
+#button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 40px;
+}
+
+.button {
+  margin: 8px;
+  padding: 18px;
+  font-size: 16px;
+  width: 58%;
+  border-radius: 7px;
+  border: none;
+  cursor: pointer;
+  font-size: 18px;
+
+  @media screen and (max-width: 900px) {
+    width: 90%;
+  }
+}
+
+.contact-menu {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  color: white;
+  margin: 30px;
+  margin-bottom: 50px;
+
+  .contact-icon {
+    margin: 8px 20px;
+    font-size: 2em;
+    cursor: pointer;
+  }
+
+  @media screen and (max-width: 900px) {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+
+.footer {
+  color: white;
+  text-align: center;
+  font-size: 15px;
+  padding-bottom: 40px;
+}
