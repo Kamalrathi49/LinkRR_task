@@ -2,7 +2,7 @@
   "name": "intrn_task",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://kamalrathi49.github.io/linkrr_task",
+  "homepage": "http://kamalrathi49.github.io/LinkRR_task",
   "dependencies": {
     "@fortawesome/fontawesome-free": "^5.15.3",
     "@fortawesome/fontawesome-svg-core": "^1.2.35",
